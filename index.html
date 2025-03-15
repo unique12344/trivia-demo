@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TECHZORITE - The Puzzle Mania</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>TECHZORITE - The Puzzle Mania</h1>
+        <p>Click letters, answer Dell trivia, and reveal the hidden image!</p>
+    </header>
+
+    <main>
+        <div id="game-container">
+            <div id="puzzle-grid"></div>
+            <div id="question-box">
+                <p id="question-text">Click a letter to start!</p>
+                <div id="options"></div>
+            </div>
+        </div>
+
+        <div id="leaderboard">
+            <h2>Leaderboard</h2>
+            <ol id="score-list"></ol>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 TECHZORITE - Dell Trivia Game</p>
+    </footer>
+
+    <audio id="correct-sound" src="./correct.mp3"></audio>
+    <audio id="wrong-sound" src="./wrong.mp3"></audio>
+
+    <script src="./script.js" defer></script>
+</body>
+</html>

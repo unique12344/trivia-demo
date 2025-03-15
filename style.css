@@ -1,0 +1,27 @@
+#leaderboard {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+#score-list {
+    list-style: none;
+    padding: 0;
+}
+
+#score-list li {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+@keyframes correctAnswer {
+    from { background-color: white; }
+    to { background-color: #28a745; }
+}
+
+@keyframes wrongAnswer {
+    from { background-color: white; }
+    to { background-color: #dc3545; }
+}
